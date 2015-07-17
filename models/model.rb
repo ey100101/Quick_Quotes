@@ -9,4 +9,14 @@ class Quotes
   def author(quote)
     return @quotes[quote][0]
   end
+  
+  def tag(quote)
+    array = []
+    length = @quotes[quote].length
+    while length > 0
+      array.push(@quotes[quote][length])
+      length -= 1
+    end
+    return array
+  end
 end
