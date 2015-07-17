@@ -1,5 +1,4 @@
 class Quotes
-  
   def quotes
     @quotes = {"If music be the food of love, play on." =>
       ['shakespeare', "philosophers",'love','music', 'art'],
@@ -50,7 +49,7 @@ class Quotes
   "You will not be punished for your anger, you will be punished by your anger." =>
     ["Buddha", "philosophers", "anger"],
   "Anger is never without a reason, but seldom with a good one." =>
-    ["Benjamin Franklin", "authors", "anger"],
+    ["Franklin", "authors", "anger"],
   "Anger and intolerance are the enemies of correct understanding." =>
     ["Mahatma Gandhi", "philosophers", "anger"],
   "People won't have time for you if you are always angry or complaining." =>
@@ -106,7 +105,7 @@ class Quotes
   "The only reason for time is so that everything doesn't happen at once." =>
     ["Einstein", "time"],
   "You can fool all the people some of the time, and some of the people all the time, but you cannot fool all the people all the time." =>
-    ["Abraham Lincoln", "presidents", "time"],
+    ["Lincoln", "presidents", "time"],
   "For time is the longest distance between two places." =>
     ["Tennessee Williams", "authors", "time"],
   "I must govern the clock, not be governed by it." =>

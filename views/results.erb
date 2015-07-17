@@ -20,31 +20,39 @@
         <th>Tags </th>
       </tr>
       <tr>
-        <%@quote = @quote1.get_quotes(@quote1.quotes, ["Anne Frank"]) %>
-        <%puts @quote%>
-        <td><q><%=@quote%></q></td>
-        <td><%="Blank"%></td>		
-        <td><%="@quote1.tag(@quote1.quotes, @quote)"%></td>
+        <%@quote_array = @quote1.get_quotes(@quote1.quotes, [@people]) %>
+        <%puts @people%>
+        <td><q><%=@quote_array[0]%></q></td>
+        <td><%=@people%></td>
+        <td><%=@quote1.quotes[@quote_array[0]]%></td>
       </tr>
       <tr>
-        <td>Quote</td>
-        <td>Author</td>
-        <td>Tags </td>
+        <%@quote_array = @quote1.get_quotes(@quote1.quotes, [@people]) %>
+        <%puts @people%>
+        <td><q><%=@quote_array[1]%></q></td>
+        <td><%=@people%></td>
+        <td><%=@quote1.quotes[@quote_array[1]]%></td>
       </tr>
       <tr>
-        <td>Quote</td>
-        <td>Author</td>	
-        <td>Tags </td>
+        <%@quote_array = @quote1.get_quotes(@quote1.quotes, [@people]) %>
+        <%puts @people%>
+        <td><q><%=@quote_array[2]%></q></td>
+        <td><%=@people%></td>
+        <td><%=@quote1.quotes[@quote_array[2]]%></td>
       </tr>
-       <tr>
-        <td>Quote</td>
-        <td>Author</td>	
-        <td>Tags </td>
+      <tr>
+        <%@quote_array = @quote1.get_quotes(@quote1.quotes, [@people]) %>
+        <%puts @people%>
+        <td><q><%=@quote_array[3]%></q></td>
+        <td><%=@people%></td>
+        <td><%=@quote1.quotes[@quote_array[3]]%></td>
       </tr>
-       <tr>
-        <td>Quote</td>
-        <td>Author</td>		
-        <td>Tags </td>
+      <tr>
+        <%@quote_array = @quote1.get_quotes(@quote1.quotes, [@people]) %>
+        <%puts @people%>
+        <td><q><%=@quote_array[4]%></q></td>
+        <td><%=@people%></td>
+        <td><%=@quote1.quotes[@quote_array[4]]%></td>
       </tr>
       </table></center>
     <a href="http://ey100101-pc-15-precollege-se1-nyfl-070615-2-110751.nitrousapp.com:9393/"><h3> &lt&lt Search again </h3></a>
