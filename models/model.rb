@@ -14,7 +14,7 @@ class Quotes
     array = []
     length = @quotes[quote].length
     while length > 0
-      array.push(@quotes[quote][length])
+      array.push(@quotes[quote][length]) 
       length -= 1
     end
     return array
