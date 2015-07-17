@@ -117,39 +117,39 @@ class Quotes
   "If art is to nourish the roots of our culture, society must set the artist free to follow his vision wherever it takes him." =>
     ["JFK", "art", "presidents"],
   "The essence of all beautiful art, all great art, is gratitude." =>
-    ["Friedrich Nietzsche", "philosophers", "art"],
+    ["Nietzsche", "philosophers", "art"],
   "Defeat is not the worst of failures. Not to have tried is the true failure." =>
-    ["George Edward Woodberry", "failure"],
+    ["Woodberry", "failure"],
   "A true friend is one who overlooks your failures and tolerates your success!" =>
-    ["Doug Larson", "authors", "relationships", "failure", "success"],
+    ["Larson", "authors", "relationships", "failure", "success"],
   "Failures, repeated failures, are finger posts on the road to achievement. One fails forward toward success." =>
-    ["C. S. Lewis", "philosophers", "authors", "failure", "success"],
+    ["Lewis", "philosophers", "authors", "failure", "success"],
   "Many of life's failures are people who did not realize how close they were to success when they gave up." =>
-    ["Thomas Edison", "failure", "success"],
+    ["Edison", "failure", "success"],
   "Ninety-nine percent of the failures come from people who have the habit of making excuses." =>
-    ["George Washington Carver", "failure"],
+    ["Carver", "failure"],
   "My favorite things in life don't cost any money. It's really clear that the most precious resource we all have is time." =>
-    ["Steve Jobs", "time"],
+    ["Jobs", "time"],
   "Design is not just what it looks like and feels like. Design is how it works." =>
-    ["Steve Jobs"],
+    ["Jobs"],
   "I want to put a ding in the universe." =>
-    ["Steve Jobs", "motivational"],
+    ["Jobs", "motivational"],
   "You have to learn the rules of the game. And then you have to play better than anyone else." =>
-    ["Albert Einstein", "success"],
+    ["Einstein", "success"],
   "Learn from yesterday, live for today, hope for tomorrow. The important thing is not to stop questioning." =>
-    ["Albert Einstein", "time"],
+    ["Einstein", "time"],
   "Try not to become a man of success, but rather try to become a man of value." =>
-    ["Albert Einstein", "success"],
+    ["Einstein", "success"],
   "Life's most persistent and urgent question is, 'What are you doing for others?'" =>
-    ["Martin Luther King, Jr."],
+    ["MLK"],
   "Faith is taking the first step even when you don't see the whole staircase." =>
-    ["Martin Luther King, Jr."],
+    ["MLK"],
   "Nothing in all the world is more dangerous than sincere ignorance and conscientious stupidity." =>
-    ["Martin Luther King, Jr."],
+    ["MLK"],
   "We must accept finite disappointment, but never lose infinite hope." =>
-    ["Martin Luther King, Jr.", "motivational"],
+    ["MLK", "motivational"],
   "In the End, we will remember not the words of our enemies, but the silence of our friends." =>
-    ["Martin Luther King, Jr."],
+    ["MLK"],
   "The truth is you don't know what is going to happen tomorrow. Life is a crazy ride, and nothing is guaranteed." =>
     ["Eminem"],
   "Trust is hard to come by. That's why my circle is small and tight. I'm kind of funny about making new friends." =>
@@ -161,69 +161,69 @@ class Quotes
   "If people take anything from my music, it should be motivation to know that anything is possible as long as you keep working at it and don't back down." =>
     ["Eminem", "motivational", "success"],
  "Try to be a rainbow in someone's cloud." =>
-    ["Maya Angelou", "motivational"],
+    ["Angelou", "motivational"],
  "My mission in life is not merely to survive, but to thrive; and to do so with some passion, some compassion, some humor, and some style." =>
-    ["Maya Angelou", "success"],
+    ["Angelou", "success"],
   "We may encounter many defeats but we must not be defeated." =>
-    ["Maya Angelou", "failure"],
+    ["Angelou", "failure"],
   "I've learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel." =>
-    ["Maya Angelou", "motivational"],
+    ["Angelou", "motivational"],
   "If you don't like something, change it. If you can't change it, change your attitude." =>
-    ["Maya Angelou"],
+    ["Angelou"],
   "Some people never go crazy, What truly horrible lives they must live." =>
-    ["Charles Bukowski"],
+    ["Bukowski"],
   "The free soul is rare, but you know it when you see it - basically because you feel good, very good, when you are near or with them." =>
-    ["Charles Bukowski"],
+    ["Bukowski"],
   "Genius might be the ability to say a profound thing in a simple way." =>
-    ["Charles Bukowski"],
+    ["Bukowski"],
   "I would be married, but I'd have no wife, I would be married to a single life." =>
-    ["Charles Bukowski"],
+    ["Bukowski"],
   "If you're losing your soul and you know it, then you've still got a soul left to lose." =>
-    ["Charles Bukowski"],
+    ["Bukowski"],
   "It's not what you look at that matters, it's what you see." =>
-    ["Henry David Thoreau"],
+    ["Thoreau"],
   "I never found a companion that was so companionable as solitude." =>
-    ["Henry David Thoreau"],
+    ["Thoreau"],
   "Things do not change; we change." =>
-    ["Henry David Thoreau"],
+    ["Thoreau"],
   "This world is but a canvas to our imagination." =>
-    ["Henry David Thoreau"],
+    ["Thoreau"],
   "Live your beliefs and you can turn the world around." =>
-    ["Henry David Thoreau", "motivational"],
+    ["Thoreau", "motivational"],
   "Friendship... is not something you learn in school. But if you haven't learned the meaning of friendship, you really haven't learned anything." =>
-    ["Muhammad Ali", "relationships"],
+    ["Ali", "relationships"],
   "I hated every minute of training, but I said, 'Don't quit. Suffer now and live the rest of your life as a champion.'" =>
-    ["Muhammad Ali", "motivational"],
+    ["Ali", "motivational"],
   "He who is not courageous enough to take risks will accomplish nothing in life." =>
-    ["Muhammad Ali", "success", "failure"],
+    ["Ali", "success", "failure"],
   "I know where I'm going and I know the truth, and I don't have to be what you want me to be. I'm free to be what I want." =>
-    ["Muhammad Ali", "motivational"],
+    ["Ali", "motivational"],
   "Float like a butterfly, sting like a bee." =>
-    ["Muhammad Ali"],
+    ["Ali"],
   "The most important thing is to enjoy your life - to be happy - it's all that matters." =>
-    ["Audrey Hepburn", "happiness"],
+    ["Hepburn", "happiness"],
   "The best thing to hold onto in life is each other." =>
-    ["Audrey Hepburn", "relationships"],
+    ["Hepburn", "relationships"],
   "Nothing is impossible, the word itself says 'I'm possible'!" =>
-    ["Audrey Hepburn"],
+    ["Hepburn"],
   "Let us dream of tomorrow where we can truly love from the soul, and know love as the ultimate truth at the heart of all creation." =>
-    ["Michael Jackson"],
+    ["Jackson"],
   "If you enter this world knowing you are loved and you leave this world knowing the same, then everything that happens in between can be dealt with." =>
-    ["Michael Jackson", "happiness"],
+    ["Jackson", "happiness"],
   "The greatest education in the world is watching the masters at work." =>
-    ["Michael Jackson"],
+    ["Jackson"],
   "I've missed more than 9000 shots in my career. I've lost almost 300 games. 26 times, I've been trusted to take the game winning shot and missed. I've failed over and over and over again in my life. And that is why I succeed." =>
-    ["Michael Jordan", "success", "failure"],
+    ["Jordan", "success", "failure"],
   "I can accept failure, everyone fails at something. But I can't accept not trying." =>
-    ["Michael Jordan", "failure"],
+    ["Jordan", "failure"],
   "Talent wins games, but teamwork and intelligence wins championships." =>
-    ["Michael Jordan"],
+    ["Jordan"],
   "Whoever is happy will make others happy too." =>
-    ["Anne Frank", "happiness"],
+    ["Frank", "happiness"],
   "Think of all the beauty still left around you and be happy." =>
-    ["Anne Frank", "happiness"],
+    ["Frank", "happiness"],
   "Despite everything, I believe that people are really good at heart." =>
-  ["Anne Frank", "humans"]}
+  ["Frank", "humans"]}
   end
   
   def author(quotes, quote)
