@@ -20,9 +20,11 @@
         <th>Tags </th>
       </tr>
       <tr>
-        <td><q><%=@quote1.quotes.keys[0] %></q></td>
-        <td><%=@quote1.author("If music be the food of love, play on.").capitalize%></td>		
-        <td><%=@quote1.tag("If music be the food of love, play on.")%></td>
+        <%@quote = @quote1.get_quotes(@quote1.quotes, ["Anne Frank"]) %>
+        <%puts @quote%>
+        <td><q><%=@quote%></q></td>
+        <td><%="Blank"%></td>		
+        <td><%="@quote1.tag(@quote1.quotes, @quote)"%></td>
       </tr>
       <tr>
         <td>Quote</td>
