@@ -1,19 +1,19 @@
 class Quotes
   def quotes
     @quotes = {"If music be the food of love, play on." =>
-      ['shakespeare', "philosophers",'love','music', 'art'],
+      ['Shakespeare', "philosophers",'love','music', 'art'],
   "Only two things are infinite, the universe and human stupidity, and I'm not sure about the former." => 
       ["Einstein", 'humans', 'stupidity'],
   "Dream no small dreams for they have no power to move the hearts of men." =>
     ['Johann Wolfgang von Goethe', "authors", 'success'],
   "You are educated. Your certification is in your degree. You may think of it as the ticket to the good life. Let me ask you to think of an alternative. Think of it as your ticket to change the world." =>
-    ['john brokaw', "authors",'graduation','life'],
+    ['Brokaw', "authors",'graduation','life'],
   "The aim of education is the knowledge, not of facts, but of values." =>
-    ["william burroughs", "authors", "graduation"],
+    ["Burroughs", "authors", "graduation"],
   "You don't choose your family. They are God's gift to you, as you are to them." =>
-    ['desmond tutu', 'family'],
+    ['Tutu', 'family'],
   "The love of family and the admiration of friends is much more important than wealth and privilege." =>
-    ['charles kuralt', 'family', 'success'],
+    ['Kuralt', 'family', 'success'],
   "The bond that links your true family is not one of blood, but of respect and joy in each other's life." =>
     ['Richard Bach', "authors", 'family', 'happiness'],
   "If your actions inspire others to dream more, learn more, do more and become more, you are a leader." =>
