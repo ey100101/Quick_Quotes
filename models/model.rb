@@ -1,6 +1,7 @@
 class Quotes
   def quotes
-    @quotes = {"If music be the food of love, play on." =>
+    @quotes = {"none" => ["none"],
+  "If music be the food of love, play on." =>
       ['Shakespeare', "philosophers",'love','music', 'art'],
   "Only two things are infinite, the universe and human stupidity, and I'm not sure about the former." => 
       ["Einstein", 'humans', 'stupidity'],
@@ -254,6 +255,12 @@ class Quotes
           end
 	      end
     end
-	return selected
+    while true
+      if selected.length < 5
+        selected.push('none')
+      else
+	      return selected
+      end
+    end
   end
 end
