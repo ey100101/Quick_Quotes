@@ -9,7 +9,7 @@ class Quotes
   "You are educated. Your certification is in your degree. You may think of it as the ticket to the good life. Let me ask you to think of an alternative. Think of it as your ticket to change the world." =>
     ['Brokaw', "authors",'graduation','life'],
   "The aim of education is the knowledge, not of facts, but of values." =>
-    ["Burroughs", "authors", "graduation"],
+        ["Burroughs", "authors", "graduation", "education"],
   "You don't choose your family. They are God's gift to you, as you are to them." =>
     ['Tutu', 'family'],
   "The love of family and the admiration of friends is much more important than wealth and privilege." =>
@@ -45,7 +45,7 @@ class Quotes
   "Your pain is the breaking of the shell that encloses your understanding." =>
     ["Khalil Gibran", "authors", "sadness"],
   "The word 'happiness' would lose its meaning if it were not balanced by sadness." =>
-    ["Carl Jung", "philosophers", "happiness", "sadness"],
+    ["Jung", "philosophers", "happiness", "sadness"],
   "You will not be punished for your anger, you will be punished by your anger." =>
     ["Buddha", "philosophers", "anger"],
   "Anger is never without a reason, but seldom with a good one." =>
@@ -72,8 +72,6 @@ class Quotes
     ["Al McGuire", "graduation", "humor"],
   "Commencement speeches were invented largely in the belief that outgoing college students should never be released into the world until they have been properly sedated." =>
     ["Garry Trudeau", "graduation", "humor"],
-  "It might be said now that I have the best of both worlds. A Harvard education and a Yale degree." =>
-    ["JFK", "presidents", "graduation"],
   "To us, family means putting your arms around each other and being there." =>
     ["Barbara Bush", "family"],
   "My family is my strength and my weakness." =>
@@ -211,7 +209,7 @@ class Quotes
   "If you enter this world knowing you are loved and you leave this world knowing the same, then everything that happens in between can be dealt with." =>
     ["Jackson", "happiness"],
   "The greatest education in the world is watching the masters at work." =>
-    ["Jackson"],
+        ["Jackson", "education"],
   "I've missed more than 9000 shots in my career. I've lost almost 300 games. 26 times, I've been trusted to take the game winning shot and missed. I've failed over and over and over again in my life. And that is why I succeed." =>
     ["Jordan", "success", "failure"],
   "I can accept failure, everyone fails at something. But I can't accept not trying." =>
@@ -223,7 +221,10 @@ class Quotes
   "Think of all the beauty still left around you and be happy." =>
     ["Frank", "happiness"],
   "Despite everything, I believe that people are really good at heart." =>
-  ["Frank", "humans"]}
+    ["Frank", "humans"],
+  "The mere imparting of information is not education." =>
+    ["Woodson", "education"]
+        }
   end
   
   def author(quotes, quote)
@@ -239,18 +240,20 @@ class Quotes
     end
     return array
   end
-  
+
   def get_quotes(quotes,tags)
     selected = []
-  	if tags.length == 1
-      for quote in quotes.keys
-        if quotes[quote][0] == tags[0]
-          selected.push(quote)
-		    end
-	     end
-	  end
-    puts selected
-	  return selected
+    for quote in quotes.keys
+        if quotes[quote].include? tags[0]
+          if tags.length == 2
+            if quotes[quote].include? tags[1]
+              selected.push(quote)
+            end
+          else
+            selected.push(quote)
+          end
+	      end
+    end
+	return selected
   end
 end
-

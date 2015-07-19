@@ -10,9 +10,6 @@
   
   <body background = "http://u.kanobu.ru/comments/images/92025b04-c980-46da-8859-66f64c997468.jpg">
     <h1 class = "text"> Quick Quotes </h1>
-<!--   <h2> Topic: <%=@topics%> </h2>
-  <h2> Person: <%=@people%> </h2>
-     -->
     <center><table border = 1 style="width:80%">
       <tr>
         <th>Quote</th>
@@ -20,39 +17,44 @@
         <th>Tags </th>
       </tr>
       <tr>
-        <%@quote_array = @quote1.get_quotes(@quote1.quotes, [@people]) %>
-        <%puts @people%>
-        <td><q><%=@quote_array[0]%></q></td>
-        <td><%=@people%></td>
-        <td><%=@quote1.quotes[@quote_array[0]]%></td>
+        <%@quote_array = @quote1.get_quotes(@quote1.quotes, @tags)%>
+        <%curr_quote = @quote_array[0]%>
+        <%curr_tags = @quote1.quotes[curr_quote]%>
+        <td><q><%=curr_quote%></q></td>
+        <td><%=curr_tags[0]%></td>
+        <td><%=curr_tags%></td>
       </tr>
       <tr>
-        <%@quote_array = @quote1.get_quotes(@quote1.quotes, [@people]) %>
-        <%puts @people%>
-        <td><q><%=@quote_array[1]%></q></td>
-        <td><%=@people%></td>
-        <td><%=@quote1.quotes[@quote_array[1]]%></td>
+        <%@quote_array = @quote1.get_quotes(@quote1.quotes, @tags)%>
+        <%curr_quote = @quote_array[1]%>
+        <%curr_tags = @quote1.quotes[curr_quote]%>
+        <td><q><%=curr_quote%></q></td>
+        <td><%=curr_tags[0]%></td>
+        <td><%=curr_tags%></td>
       </tr>
       <tr>
-        <%@quote_array = @quote1.get_quotes(@quote1.quotes, [@people]) %>
-        <%puts @people%>
-        <td><q><%=@quote_array[2]%></q></td>
-        <td><%=@people%></td>
-        <td><%=@quote1.quotes[@quote_array[2]]%></td>
+        <%@quote_array = @quote1.get_quotes(@quote1.quotes, @tags)%>
+        <%curr_quote = @quote_array[2]%>
+        <%curr_tags = @quote1.quotes[curr_quote]%>
+        <td><q><%=curr_quote%></q></td>
+        <td><%=curr_tags[0]%></td>
+        <td><%=curr_tags%></td>
       </tr>
       <tr>
-        <%@quote_array = @quote1.get_quotes(@quote1.quotes, [@people]) %>
-        <%puts @people%>
-        <td><q><%=@quote_array[3]%></q></td>
-        <td><%=@people%></td>
-        <td><%=@quote1.quotes[@quote_array[3]]%></td>
+        <%@quote_array = @quote1.get_quotes(@quote1.quotes, @tags)%>
+        <%curr_quote = @quote_array[3]%>
+        <%curr_tags = @quote1.quotes[curr_quote]%>
+        <td><q><%=curr_quote%></q></td>
+        <td><%=curr_tags[0]%></td>
+        <td><%=curr_tags%></td>
       </tr>
       <tr>
-        <%@quote_array = @quote1.get_quotes(@quote1.quotes, [@people]) %>
-        <%puts @people%>
-        <td><q><%=@quote_array[4]%></q></td>
-        <td><%=@people%></td>
-        <td><%=@quote1.quotes[@quote_array[4]]%></td>
+        <%@quote_array = @quote1.get_quotes(@quote1.quotes, @tags)%>
+        <%curr_quote = @quote_array[4]%>
+        <%curr_tags = @quote1.quotes[curr_quote]%>
+        <td><q><%=curr_quote%></q></td>
+        <td><%=curr_tags[0]%></td>
+        <td><%=curr_tags%></td>
       </tr>
       </table></center>
     <a href="http://quick-quotes-picker.herokuapp.com/"><h3> &lt&lt Search again </h3></a>

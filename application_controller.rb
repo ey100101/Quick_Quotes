@@ -9,8 +9,13 @@ class MyApp < Sinatra::Base
   end
   
   post '/results' do
-    @topics = params[:topics]
-    @people = params[:people]
+    @tags = []
+    unless params[:people] == 'none'
+      @tags.push(params[:people])
+    end
+    unless params[:topics] == 'none'
+      @tags.push(params[:topics])
+    end
     @quote1 = Quotes.new
     erb :results
   end
