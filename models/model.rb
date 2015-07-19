@@ -226,8 +226,9 @@ class Quotes
   "Despite everything, I believe that people are really good at heart." =>
     ["Anne Frank", "humans"],
   "The mere imparting of information is not education." =>
-    ["Carter Woodson", "education"]
-        }
+    ["Carter Woodson", "education"],
+  "Insanity: doing the same thing over and over again and expecting different results." =>
+    ["Albert Einstein", "insanity"]}
   end
   
   def author(quotes, quote)
@@ -257,12 +258,6 @@ class Quotes
           end
 	      end
     end
-    while true
-      if selected.length < 5
-        selected.push('none')
-      else
-	      return selected
-      end
-    end
+    return selected
   end
 end

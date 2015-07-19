@@ -16,46 +16,16 @@
         <th>Author</th> 
         <th>Tags </th>
       </tr>
+      <%@quote_array = @quote1.get_quotes(@quote1.quotes, @tags)%>
+      <%for i in 0..@quote_array.length-1%>
       <tr>
-        <%@quote_array = @quote1.get_quotes(@quote1.quotes, @tags)%>
-        <%curr_quote = @quote_array[0]%>
-        <%curr_tags = @quote1.quotes[curr_quote]%>
-        <td><q><%=curr_quote%></q></td>
-        <td><%=curr_tags[0]%></td>
-        <td><%=curr_tags%></td>
+          <%curr_quote = @quote_array[i]%>
+          <%curr_tags = @quote1.quotes[curr_quote]%>
+          <td><q><%=curr_quote%></q></td>
+          <td><%=curr_tags[0]%></td>
+          <td><%=curr_tags%></td>
       </tr>
-      <tr>
-        <%@quote_array = @quote1.get_quotes(@quote1.quotes, @tags)%>
-        <%curr_quote = @quote_array[1]%>
-        <%curr_tags = @quote1.quotes[curr_quote]%>
-        <td><q><%=curr_quote%></q></td>
-        <td><%=curr_tags[0]%></td>
-        <td><%=curr_tags%></td>
-      </tr>
-      <tr>
-        <%@quote_array = @quote1.get_quotes(@quote1.quotes, @tags)%>
-        <%curr_quote = @quote_array[2]%>
-        <%curr_tags = @quote1.quotes[curr_quote]%>
-        <td><q><%=curr_quote%></q></td>
-        <td><%=curr_tags[0]%></td>
-        <td><%=curr_tags%></td>
-      </tr>
-      <tr>
-        <%@quote_array = @quote1.get_quotes(@quote1.quotes, @tags)%>
-        <%curr_quote = @quote_array[3]%>
-        <%curr_tags = @quote1.quotes[curr_quote]%>
-        <td><q><%=curr_quote%></q></td>
-        <td><%=curr_tags[0]%></td>
-        <td><%=curr_tags%></td>
-      </tr>
-      <tr>
-        <%@quote_array = @quote1.get_quotes(@quote1.quotes, @tags)%>
-        <%curr_quote = @quote_array[4]%>
-        <%curr_tags = @quote1.quotes[curr_quote]%>
-        <td><q><%=curr_quote%></q></td>
-        <td><%=curr_tags[4]%></td>
-        <td><%=curr_tags%></td>
-      </tr>
+      <%end%>
       </table></center>
     <a href="http://quick-quotes-picker.herokuapp.com/" style="color: #000000"><h3> &lt&lt Search again </h3></a>
   </body>
